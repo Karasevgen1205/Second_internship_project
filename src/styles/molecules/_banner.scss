@@ -1,0 +1,118 @@
+.banner {
+    display: block;
+    margin-top: 109px;
+    // background-color: rgba(206, 224, 234, 0.05);
+    background-color: rgba(20, 156, 232, 0.05);
+
+    &__title {
+        font-family: "Poppins", sans-serif;
+        font-size: 55px;
+        line-height: 70px;
+        color: #152b46;
+        margin-bottom: 27px;
+        margin-top: 138px;
+    }
+
+    &__little-title {
+        color: #152b46;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 120%;
+        padding-left: 0;
+        margin-bottom: 80px;
+    }
+
+    &__img {
+        margin-bottom: 98px;
+        width: 788px;
+        height: 658px;
+
+
+    }
+}
+
+.banner-boa {
+    margin-top: 64px;
+    background-color: rgba(206, 224, 234, 0.05);
+
+
+    &__title {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 120%;
+        /* or 36px */
+        
+        text-align: center;
+        letter-spacing: 0.01em;
+        
+        /* Black */
+        
+        color: #152B46;
+        margin-bottom: 35px;
+
+        span {
+            background-image: linear-gradient(
+                90.18deg
+                ,rgba(20,156,232,.35) 
+                .06%,rgba(20,156,232,0) 139.26%);
+            background-size: 100% 40%;
+            background-repeat: no-repeat;
+            background-position: bottom 20% left 0;
+        }
+    }
+
+    &__little-title {
+        font-family: "Poppins", sans-serif;
+        color: #152b46;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 190px;
+    }
+
+}
+
+
+
+
+@media (max-width: $sm) {
+    .banner {
+        margin-top: 131px;
+        background-color: rgba(206, 224, 234, 0.05);
+        
+        &__title {
+            font-family: "Poppins", sans-serif;
+            font-size: 55px;
+            line-height: 70px;
+            color: #152b46;
+            margin-bottom: 27px;
+            margin-top: 109px;
+            text-align: center;
+        }
+    
+        &__little-title {
+            color: #152b46;
+            font-size: 18px;
+            font-weight: normal;
+            line-height: 145%;
+            margin-bottom: 80px;
+            text-align: center;
+        }
+
+        &__img {
+            margin: 0;
+            padding: 0;
+
+            width: 560px;
+        }
+
+        img {
+            width: 560px;
+
+        }
+    }
+}

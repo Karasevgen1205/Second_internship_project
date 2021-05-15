@@ -1,0 +1,21 @@
+<svg width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1" fill="white">
+<rect x="9.8418" y="9.84229" width="31.3158" height="31.3158" rx="1"/>
+</mask>
+<rect x="9.8418" y="9.84229" width="31.3158" height="31.3158" rx="1" stroke="url(#paint0_radial)" stroke-width="7" mask="url(#path-1-inside-1)"/>
+<rect x="3.28906" y="3.28955" width="44.4211" height="44.4211" rx="1.5" stroke="url(#paint1_radial)" stroke-width="3" stroke-dasharray="4 4"/>
+<rect x="43.8418" y="43.8423" width="7.15789" height="7.15789" rx="0.5" fill="#13539A"/>
+<rect x="43.8418" width="7.15789" height="7.15789" rx="0.5" fill="#13539A"/>
+<rect width="7.15789" height="7.15789" rx="0.5" fill="#13539A"/>
+<rect y="43.8423" width="7.15789" height="7.15789" rx="0.5" fill="#13539A"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(25.4997 25.5002) rotate(4.15964) scale(37.7763 96.3973)">
+<stop stop-color="#13539A"/>
+<stop offset="1" stop-color="#149CE8"/>
+</radialGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(25.947 25.9474) scale(34.4474 33.8331)">
+<stop stop-color="#13539A"/>
+<stop offset="1" stop-color="#149CE8"/>
+</radialGradient>
+</defs>
+</svg>

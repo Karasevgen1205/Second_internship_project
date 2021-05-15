@@ -1,0 +1,50 @@
+.subnav {
+    visibility: hidden;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    // top: 12px;
+    // right: 2px;
+    left: -14px;
+    width: 165px;
+    margin-top: 4px;
+    transition: visibility .2s linear;
+
+    
+    list-style-type: none;
+    list-style-position: inside;
+    text-decoration: none;
+    color: rgba(21, 43, 70, 1);
+
+    border: 1.5px solid rgba(19, 83, 154, 0.25);
+    background: rgba(255, 255, 255, 1);
+
+    
+    &:hover {
+        color: #149ce8;
+        text-decoration: none;
+
+        }
+
+    &__item {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    &__link {
+        
+        text-decoration: none;
+        color: rgba(21, 43, 70, 1);
+        margin: 25px;
+        font-size: 15px;
+        line-height: 22px;
+
+        transition: color .2s linear;
+
+        &:hover {
+            color: #149ce8;
+            text-decoration: none;
+            }
+        
+    }
+}

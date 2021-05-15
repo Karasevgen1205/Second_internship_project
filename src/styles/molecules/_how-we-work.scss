@@ -1,0 +1,104 @@
+.how-we-work {
+    margin-top: 458px;
+    background-image: url("/src/images/how-we-work-2.png");
+    background-repeat: no-repeat;
+
+    &__title {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 47px;
+        line-height: 120%;
+        /* or 56px */
+
+        text-align: center;
+        letter-spacing: 0.01em;
+
+        /* Black */
+
+        color: #152B46;
+
+        margin-bottom: 57px;
+    }
+
+    &__cards {
+        display: grid;
+        grid-gap: 30px 26px;
+        grid-template-rows: 279px 279px;
+        grid-template-columns: 330px 330px 330px;
+        width: 1200px;
+        
+        justify-content: center;
+
+
+    }   
+
+    &__card {
+        background-color: #fff;
+        border-radius: 4px;
+    }
+
+    &__img {
+        margin-top: 33px;
+        margin-bottom: 19px;
+        margin-left: 43px;
+    }
+
+    &__subtitle {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 124%;
+        /* or 27px */
+        
+        
+        color: #152B46;
+
+        margin-bottom: 13px;
+        margin-left: 38px;
+    }
+
+    &__subtext {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 150%;
+        /* or 22px */
+
+
+        color: #152B46;
+
+        margin-left: 38px;
+        margin-right: 38px;
+        // text-align: justify;
+    }
+
+    &__title-client {
+        margin-top: 311px;
+        margin-bottom: 37px;
+
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 123%;
+        /* identical to box height, or 41px */
+        
+        
+        /* Black */
+        
+        color: #152B46;   
+    }
+
+    &__logo {
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px 300px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 73px;
+    }
+
+}

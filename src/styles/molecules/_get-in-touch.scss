@@ -1,0 +1,39 @@
+.get-in-touch {
+    background-color: rgba(17, 56, 103, 1);
+    background-image: url("/src/images/get-in-touch-image.png");
+    background-repeat: no-repeat;
+    background-position: 40% 50%;
+    background-size: contain;
+
+
+    @media(max-width: $sm) {
+        background-size: 140%;
+        background-position: 90% 30%;
+        overflow: hidden;
+       }
+
+    &__title {
+    justify-content: center;    
+
+    padding-top: 313px;
+    // margin-top: 136px;
+    
+    font-family: "Sora", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 120%;
+
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+
+    }
+
+    &__button {
+        justify-content: center;
+        padding-top: 57px;
+        padding-bottom: 293px;
+    }
+}

@@ -1,0 +1,234 @@
+.developers {
+    &__background {
+        background-image: url("/src/images/Group_1514.png");
+        background-repeat: no-repeat;
+        background-position: 90% top;
+        // background-size: auto 446px;
+
+
+        @media(max-width: $sm) {
+            background-size: contain;
+            background-position: 0 50px;
+        }
+    }
+
+    &__background-color {
+        background-color: rgba(244, 248, 250, 1);
+    }
+
+    &__title {
+        margin-top: 210px;
+        margin-bottom: 134px;
+
+
+        @media (max-width: $sm) {
+            width: 350px;
+            margin: 100px auto;
+        }
+
+        span {
+            background-image: linear-gradient(
+                90.18deg
+                ,rgba(20,156,232,.35) 
+                .06%,rgba(20,156,232,0) 139.26%);
+            background-size: 100% 40%;
+            background-repeat: no-repeat;
+            background-position: bottom 20% left 0;
+
+
+
+        }
+
+        // @media (max-width:$sm) {
+        //     h4 {
+        //         min-width: 300px;
+        //     }
+        // }
+        
+    }
+
+    &__item {
+        font-family: Sora;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27.28px;
+        color: rgba(21, 43, 70, 1);
+        margin-bottom: 38px;    
+
+    }
+
+    &__list {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 150px;
+
+        @media(max-width: $sm) {
+            margin-bottom: 40px;
+        }
+    }
+
+
+
+    &__img {
+        margin-top: 155px;
+        
+        @media(max-width: $sm) {
+            margin-top: 100px;
+        }
+
+        img {
+            @media(max-width: $sm) {
+                width: 370px;
+            }
+        }
+
+    }
+
+    &__quote {
+        margin-top: 155px;
+        margin-left: 145px;
+        width: 780px;
+        text-align: justify;
+        color: rgba(21, 43, 70, 1);
+
+        @media(max-width: $sm) {
+            margin: 40px 25px 25px;
+            text-align: center;
+            
+        }
+    }
+
+    &__quote-2 {
+        padding-left: 70px;
+       
+        @media(max-width: $sm) {
+            padding-left: 0px;
+        }
+
+    }
+
+    &__quote-text {
+        font-family: "Sora", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        margin-bottom: 53px;
+        padding-left: 60px;
+        
+        
+        @media(max-width: $sm) {
+            margin: 40px 25px 25px;
+            padding: 0;
+            font-size: 23px;
+        }
+    }
+
+    &__quote-author {
+        font-family: "Sora", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        margin-bottom: 3px;
+        // padding-left: 15px;
+
+        @media(max-width: $sm) {
+         text-align: center;
+         font-size: 25px;
+         padding-left: 0;
+        }
+    }
+
+    &__quote-company {
+        font-family: "Sora", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 150%;
+        padding-bottom: 125px;
+
+        @media(max-width: $sm) {
+            font-size: 25px;
+            // margin-bottom: 80px;
+            text-align: center;
+            justify-content: center;
+            padding-left: 0;
+            padding-bottom: 50px;
+           }
+    }
+    
+    &__arrow {
+        margin-left: 230px;
+
+        @media(max-width: $sm) {
+            text-align: center;
+            margin-left: 0;
+            padding-bottom: 80px;
+           }
+    }
+
+    &__arrow-left {
+        margin-right: 20px;
+    }
+
+    &__arrow-right {
+        margin-left: 0;
+    }
+
+    &__list-title {    
+        font-family: "Sora", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 47px;
+        line-height: 56px;
+        margin-bottom: 22px;
+        padding-top: 56px;
+        letter-spacing: 0.01em;   
+    
+        @media(max-width: $sm) {
+            display: none;
+        }
+    }
+    
+    &__list-text {
+    
+        font-family: "Sora", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 145%;
+        margin-bottom: 18px;
+
+        
+    }
+    
+    
+    &--active {
+        position: relative;
+        font-family: "Sora", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 123%;
+        margin: 35px 0;
+
+        &:before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 10.9px;
+        height: 10.9px;
+        background-color: rgba(20, 156, 232, 1);
+        margin-left: -20px;
+        margin-top: 13px;
+        transform: rotate(45deg);
+        }
+    }
+
+}
+
+
+
+
+

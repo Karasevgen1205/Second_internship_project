@@ -1,0 +1,9 @@
+<svg class='jelly-circle-svg' width="751" height="847" viewBox="0 0 751 847" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M595.055 1041.58C570.216 1273.9 185.301 1236.53 62.4688 1299.57C-60.3632 1362.62 -249.182 1293.33 -335.273 1167.69C-422.379 1042.09 -616.134 1000.38 -608.092 833.578C-600.05 666.776 -594.198 434.458 -420.18 346.347C-218.91 244.438 -120.333 28.082 79.4201 23.2107C326.007 17.1972 480.267 114.36 596.05 223.883C736.81 357.031 759.857 520.401 655.521 667.984C565.433 795.411 608.06 919.949 595.055 1041.58Z" fill="url(#paint0_linear)"/>
+<defs>
+<linearGradient id="paint0_linear" x1="-412.93" y1="-816.606" x2="314.604" y2="1367.94" gradientUnits="userSpaceOnUse">
+<stop stop-color="#149CE8" stop-opacity="0.51"/>
+<stop offset="0.884087" stop-color="#D0F5F3" stop-opacity="0.03"/>
+</linearGradient>
+</defs>
+</svg>

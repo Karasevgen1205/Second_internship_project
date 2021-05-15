@@ -1,0 +1,168 @@
+.footer {
+    background-color: rgba(244, 248, 250, 1);
+    margin-top: 152px;
+
+
+    @media(max-width: $sm) {
+        display: none;
+    }
+
+    &__logo-boa {
+        margin-top: 74px;
+        margin-bottom: 330px;
+    }
+
+    &__copyright-notice {
+        color: rgba(21, 43, 70, 1);
+        font-family: "Sora", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+
+        margin-bottom: 31px;
+        white-space: nowrap;
+    
+        
+        a {
+            color: inherit;
+            text-decoration: underline !important;
+        }
+    }
+    
+    &__list-1 {
+        list-style-type: none;
+        list-style-position: outside;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+
+        li {
+            padding-bottom: 26px;
+        }
+
+        &:first-of-type {
+            margin-top: 96px;
+        }
+    }
+     
+    &__item {
+        font-family: "Sora", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: rgba(21, 43, 70, 1);
+
+        &:hover {
+            text-decoration: none;
+        }
+
+    }
+    
+    &__btn {
+        position: absolute;
+        margin-top: 82px;
+        margin-left: 100px;
+        
+    }
+
+    &__logo-social {
+        margin: 93px 27px 342px 0;
+    }
+}
+
+
+.footer-mobile {
+    display: none;
+    
+    background-color: rgba(244, 248, 250, 1);
+    margin-top: 152px;
+    
+    @media(max-width: $sm) {
+        display: block;
+    }
+
+    &__logo-boa {
+        width: 200px;
+        margin-left: 215px;
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
+
+    &__copyright-notice {
+        color: rgba(21, 43, 70, 1);
+        font-family: "Sora", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 18px;
+
+        // justify-content: center;
+        // margin-top: 50px;
+        margin-bottom: 31px;
+        white-space: nowrap;
+
+        a {
+            color: inherit;
+            text-decoration: underline !important;
+        }
+    }
+    
+    &__list-1 {
+        list-style-type: none;
+        list-style-position: outside;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+
+        li {
+            padding-bottom: 26px;
+        }
+
+        &:first-of-type {
+            margin-top: 96px;
+        }
+    }
+     
+    &__item {
+        font-family: "Sora", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 45px;
+
+        color: rgba(21, 43, 70, 1);
+
+        &:hover {
+            text-decoration: none;
+        }
+
+    }
+    
+    &__btn {
+        position: absolute;
+        margin-top: 82px;
+        margin-left: 100px;
+        
+    }
+
+    &__logo-goup {
+        // align-items: space-around;
+        text-align: center;
+    }
+
+    &__logo-social {
+        // justify-content: space-around;
+        width: 40px;
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-bottom: 50px;
+    }
+
+    &__margin-top {
+        margin-top: 90px;  
+    }
+}

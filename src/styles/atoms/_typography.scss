@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Sora:wght@400;500;600;700&display=swap');
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.headline-1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+    line-height: 70px;
+    color: #152b46;
+}
+
+.headline-2 {
+    font-family: "Sora", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 56.4px;
+
+    color: rgba(21, 43, 70, 1);
+
+
+
+    @media (max-width: $sm) {
+        
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 120%;
+        /* or 36px */
+
+        text-align: center;
+        letter-spacing: 0.01em;
+
+        color: #152B46;
+    }
+}

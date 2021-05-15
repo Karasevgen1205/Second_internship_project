@@ -1,0 +1,108 @@
+.btn {
+    text-decoration: none;
+    width: 200px;
+    height: 70px;
+    background-color: rgba(20,156,232,1);
+    border-radius: 2px;
+    padding: 22px 41px 22px 42px;
+
+    font-family: "Sora", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 21.42px;
+    color: rgba(255,255,255,1);
+    transition: background-color .2s linear;
+    
+
+    &:hover {
+        color: rgba(255,255,255,1);
+        text-decoration: none;
+        background-color: rgba(20, 124, 201, 1);
+        cursor: pointer;
+    }
+
+    &--banner {
+        width: 200px;
+        height: 70px;
+        padding: 22px 41px;
+
+        @media (max-width: $sm) {
+            margin-left: 180px;
+        }
+    }
+
+    &--work {
+        width: 210px;
+        height: 74px;
+        padding: 27px 47px;
+    }
+
+    &--nav {
+        width: 145px;
+        height: 50px;
+        background-color: rgba(20, 156, 232, 0.16) !important;
+        padding: 13px 27px;
+        color: rgba(20, 156, 232, 1) !important;
+    
+        &:hover {
+            color: #fff !important;
+            background-color: rgba(20, 156, 232, 1) !important;
+            cursor: pointer;
+        }
+    }
+
+    &--tech-talk {
+        margin-top: 48.62px;
+        width: 210px;
+        height: 74px;
+
+    }
+
+    &--get-in-touch {
+        width: 210px;
+        height: 74px;
+        padding: 26px 51px;
+
+        // @media(max-width: $){
+        //     padding: 
+        // }
+    }
+
+    &--subscribe {
+        width: 237px;
+        height: 64px;
+
+        padding: 21px 64px;
+
+        background-color: rgba(229, 244, 252, 1);
+        color: rgba(20, 156, 232, 1);
+
+        @media(max-width: $sm) {
+            padding: 40px 175px;
+            font-size: 28px;
+            margin-left: 35px;
+        }
+
+        &:hover {
+            background-color: rgba(20, 156, 232, 1);
+            color: rgba(255,255,255,1);
+        }
+    }
+
+
+    &--footer {
+        width: 145px;
+        height: 50px;
+        padding: 15px 27px;
+        background-color: rgba(21, 43, 70, 0.12);
+
+        color: rgba(21, 43, 70, 1);
+        font-size: 16px;
+    }
+
+    &--how-we-work {
+        height: 210px;
+        width: 74px;
+    }
+    
+}

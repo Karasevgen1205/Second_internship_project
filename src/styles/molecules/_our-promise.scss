@@ -1,0 +1,43 @@
+.our-promise {
+    &__background {
+        position: absolute;
+        background-image: url("/src/images/our-promise.png");
+        background-repeat: no-repeat;
+    }
+
+
+    &__title {
+        color: rgba(21, 43, 70, 1);
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 33px;
+        line-height: 123%;
+
+    }
+
+    &__item {
+        margin-top: 136px;
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 140%;
+        /* or 25px */
+
+
+        /* Black */
+
+        color: #152B46;
+    
+        &:before {
+            position: absolute;
+            content: "";
+            width: 10.9px;
+            height: 10.9px;
+            background-color: rgba(20, 156, 232, 1);
+            transform: rotate(45deg);
+            z-index: 10;
+        }
+    }
+}
