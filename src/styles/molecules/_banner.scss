@@ -26,21 +26,25 @@
         margin-bottom: 98px;
         width: 788px;
         height: 658px;
-
+        position: relative;
+        z-index: 0;
 
     }
 }
 
 .banner-boa {
-    margin-top: 64px;
+    margin-top: 269px;
     background-color: rgba(206, 224, 234, 0.05);
 
+    @media(max-width: $sm) {
+        margin-top: 64px;
+    }
 
     &__title {
         font-family: "Poppins", sans-serif;
         font-style: normal;
         font-weight: bold;
-        font-size: 30px;
+        font-size: 47px;
         line-height: 120%;
         /* or 36px */
         
@@ -61,6 +65,19 @@
             background-repeat: no-repeat;
             background-position: bottom 20% left 0;
         }
+
+
+
+    @media(max-width: $sm) {
+        
+        font-size: 46px;
+        line-height: 120%;
+
+        text-align: center;
+        letter-spacing: 0.01em;
+
+        color: #152B46;
+    }
     }
 
     &__little-title {
@@ -71,7 +88,25 @@
         line-height: 26px;
         font-weight: 400;
         text-align: center;
-        margin-bottom: 190px;
+
+        @media(max-width: $sm) {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 145%;
+            /* or 23px */
+
+            text-align: center;
+
+            color: #152B46;
+
+            br {
+                display: none;
+            }
+
+        }
+        
     }
 
 }

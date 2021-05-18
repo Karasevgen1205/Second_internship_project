@@ -1,8 +1,21 @@
 .our-promise {
-    &__background {
-        position: absolute;
-        background-image: url("/src/images/our-promise.png");
+    position: relative;
+    // width: 100%;
+
+    &__bg {
+        // position: relative;
+        // z-index: 10;
+        background-image: url("/src/images/bg_our-promise.svg");
         background-repeat: no-repeat;
+        background-position: right 80px;
+        // overflow: visible;
+        background-size: auto;
+        // width: 100%;
+
+        @media(max-width: $sm) {
+            background: none;
+        }
+
     }
 
 
@@ -14,30 +27,102 @@
         font-size: 33px;
         line-height: 123%;
 
+        margin-top: 190px;
+
+        @media(max-width: $sm) {
+            margin-top: 120px;
+        }
+
+    }
+
+    &__hr {
+        position: absolute;
+        top: 20px;
+        width: 1610px;
+        margin-top: 325px;
+        height: 3px;
+        outline: none;
+        border: none;
+        background: linear-gradient(to right, rgba(128, 184, 211, 0.02), rgba(245, 79, 80, 1));
+
+        @media(max-width: $sm) {
+            width: 780px;
+            transform: rotate(90deg);
+            margin: 0;
+            padding: 0;
+            top: 694px;
+            left: -103px;
+        }
+    }
+
+    &__block {
+        @media(max-width: $sm) {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     &__item {
+        position: relative;
         margin-top: 136px;
+
+        padding-left: 5px;
         font-family: "Poppins", sans-serif;
         font-style: normal;
         font-weight: 600;
         font-size: 18px;
         line-height: 140%;
-        /* or 25px */
-
-
-        /* Black */
-
+        margin-bottom: 200px;
+        
         color: #152B46;
+
+
+        @media(max-width: $sm) {
+            text-align: center;
+            vertical-align: center;
+            
+            margin: 0;
+            padding: 0;
+
+            font-weight: 600;
+            font-size: 23px;
+            line-height: 140%;
+
+            margin-top: 100px;
+        }
     
         &:before {
             position: absolute;
+            display: block;
+            margin: auto;
+            top: -25px;
+            left: 157px;
+
             content: "";
             width: 10.9px;
             height: 10.9px;
             background-color: rgba(20, 156, 232, 1);
             transform: rotate(45deg);
             z-index: 10;
+
+            @media(max-width: $sm) {
+                left: 147px;
+            }
+
         }
+    }
+
+    &__item-img {
+        display: none;
+        width: 50%;
+        
+
+        @media(max-width: $sm) {
+            display: block;
+            margin: 15px auto;
+        }        
+
     }
 }

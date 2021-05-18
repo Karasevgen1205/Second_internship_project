@@ -29,6 +29,12 @@
 
     color: #FFFFFF;
 
+    @media(max-width: $sm) {
+        br {
+            display: none;
+        }
+    }
+
     }
 
     &__button {

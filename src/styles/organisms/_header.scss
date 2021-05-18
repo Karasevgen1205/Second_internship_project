@@ -5,15 +5,18 @@
     opacity: 1;
     margin-left: 15px;
     position: fixed;
+    
     top: 0;
 
 
-    // z-index: 100;
+    z-index: 100;
     
     align-items: center;
     // justify-content: space-around;
     // background-color: rgba(206, 224, 234, 0.05);
     background-color: rgba(20, 156, 232, 0.05);
+    // background-blend-mode: difference;
+
 
     @media (max-width: $sm) {
         // padding-left: 0;
@@ -50,6 +53,10 @@
 
         color: rgba(21, 43, 70, 1)
 
+    }
+
+    &__why-boa {
+        background-color: rgba(255, 255, 255, 1) !important;
     }
 }
 

@@ -1,6 +1,7 @@
 .tech-talk {
     margin-top: 340px;
     background-color: rgba(206, 224, 234, 0.05);
+    
 
     background-image: url(/src/images/buble.svg);
     background-repeat: no-repeat;
@@ -11,7 +12,10 @@
     @media (max-width:$sm) {
         text-align: center;
         background-color: rgba(206, 224, 234, 0.22);
+        padding-top: 65px;
+        margin-top: 116px;
     }
+
 
     &__content {
         margin-top: 140px;
