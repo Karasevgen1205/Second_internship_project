@@ -9,81 +9,102 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>      
-    
 
-  <!-- header -->
+<!-- header -->
 <header class="header">
     <div class="container">
         <div class="row">
-            <div class="header__inner">
-                <button class="burger" type="button" data-modal="burger-modal" id="burgerTaggle">
-                    <span></span>
-                </button>    
-                <div class="header__logo">
-                    <img class="header__logo-img" src="./src/images/icons/logo.svg" alt="">
+            <div class="col-12">
+                <div class="header__inner" id="headerInner">
+                    <button class="burger" type="button" data-modal="burger-modal" id="burgerToggle">
+                        <span></span>
+                    </button> 
+                    <a class="header__logo" href="index.html" id="headerLogo">
+                        <img class="header__logo-img" src="./src/images/header_logo.svg" alt="">
+                    </a>
+                    <a href="#" class="header__contact" id="headerContact">Contact</a>
+                    <nav class="nav" id="headerNav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a class="nav__link" href="why_boa.html">Why BOA?</a>
+                            </li>
+                            <li  class="nav__item">
+                                <a class="nav__link" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li  class="nav__item">
+                                <a class="nav__link" href="shopify_partner.html">Shopify Partner</a>
+                            </li>
+                            <li  class="nav__item">
+                                <a class="nav__link" href="services.html">Services</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="meet_us.html">Meet us</a>
+                            </li>
+                            <li class="nav__item nav__item-subnav" id="headerLiNavItemSubnav">
+                                <a class="nav__link nav__subnav d-none d-lg-block" href="resources.html">Resources</a>
+                                <span class="nav__link nav__subnav d-lg-none" id="headerNavSubnav">Resources</span>
+                                <ul class="subnav" id="headerSubnav">
+                                    <li class="subnav__item d-lg-none">
+                                        <a class="subnav__link" href="resources.html">Resources</a>
+                                    </li>     
+                                    <li class="subnav__item">
+                                        <a class="subnav__link" href="blog_posts.html">Blog Posts</a>
+                                    </li>
+                                    <li class="subnav__item">
+                                        <a class="subnav__link" href="case_studies.html">Case studies</a>
+                                    </li>
+                                    <li class="subnav__item">
+                                        <a class="subnav__link" href="tutorials.html">Tutorials</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link btn btn--nav" href="#">Contact us</a>
+                            </li>
+                            <li class="nav__item-social">
+                                <a href="" class="nav__item-link">
+                                    <img class="nav__item-img" src="/src/images/social/1.svg" alt="">
+                                </a>
+                                <a href="" class="nav__item-link">
+                                    <img class="nav__item-img" src="/src/images/social/2.svg" alt="">
+                                </a>
+                                <a href="" class="nav__item-link">
+                                    <img class="nav__item-img" src="/src/images/social/3.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="nav">
-                    <ul class="nav__item">                     
-                        <li>
-                            <a class="nav__link" href="why_boa.html">Why BOA?</a>
-                        </li>
-                        <li>
-                            <a class="nav__link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li>
-                            <a class="nav__link" href="#">Shopify Partner</a>
-                        </li>
-                        <li>
-                            <a class="nav__link" href="#">Services</a>
-                        </li>
-                        <li>
-                            <a class="nav__link" href="#">Meet us</a>
-                        </li>
-                        <li class="nav__item-subnav">
-                            <a class="nav__link nav__subnav" href="#">Resources</a>
-                            <ul class="subnav">
-                                <li class="subnav__item">
-                                    <a href="" class="subnav__link">Blog Posts</a>
-                                </li>
-                                <li class="subnav__item">
-                                    <a href="" class="subnav__link">Case studies</a>
-                                </li>
-                                <li class="subnav__item">
-                                    <a href="" class="subnav__link">Tutorials</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a class="nav__link btn btn--nav" href="#">Contact us</a></li>
-                    </ul>
-                </nav>
-                
-                <div class="header__contact">
-                    <a href="#" class="header__contact">Contact</a>
-                </div>
-
             </div>
         </div>
     </div>
-</header>
+</header><!-- header -->
+
 
 <main>
-
+   
 
     <!-- intro -->
     <section class="banner">
         <div class="container">
             <div class="row">
-                <div class="offset-lg-1 col-lg-5 col-sm-12">
-                    <h1 class="banner__title">A great big website <br>
+                <div class="offset-lg-1 col-lg-5 col-12">
+                    <h1 class="banner__title">
+                        A great big website <br>
                         without the<br>
-                        great big stress</h1>
-                    <h4 class="col-sm-10 banner__little-title">Leave it to our expert developers to <br>build
-                            you the perfect, stress-free site</h4>
-                    <a class="btn btn--banner" href="#">See Portfolio</a>
+                        great big stress
+                    </h1>
+                    <h4 class="banner__little-title">
+                        Leave it to our expert developers to
+                        build you the perfect, <br>stress-free site
+                    </h4>
+                    <div class="banner__btn">
+                        <a class="btn btn--banner" href="#">See Portfolio</a>
+                    </div>
                 </div>
-                <div class="col-lg-6 col-sm-12">
+                <div class="col-lg-6 col-12">
                     <div class="banner__img">
-                        <img src="/src/images/banner-image1.png" alt="">
+                        <img src="/src/images/banner-image1.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -94,44 +115,89 @@
     <section class="promise">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="promise__title">
-                    <h3>We promise</h3>
+                <div class="col-12">
+                    <h3 class="promise__title">We promise</h3>
                 </div>
-            </div>
-            <div class="row  promise__group justify-content-center">
-                    <div class="col-lg-4 col-sm-12 promise__item">
-                        <img src="/src/images/static/Group 1528.svg" alt="">
-                        <div class="promise__text">to listen and understand<br> all of your needs</div>
+                <div class="col-lg-4 col-12">
+                    <div class="promise__item">
+                        <div class="promise__item-img">
+                            <img src="/src/images/static/Group 1528.svg" alt="">
+                        </div>
+                        <span class="promise__text">to listen and understand<br> all of your needs</span>
                     </div>
-                    <div class="col-lg-4 col-sm-12 promise__item ">
-                        <img src="/src/images/static/Group_1197.png" alt="">
-                        <div class="promise__text">to be partners you can<br> rely on and trust</div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="promise__item">
+                        <div class="promise__item-img">
+                            <img src="/src/images/static/Group_1197.png" alt="">
+                        </div>
+                        <span class="promise__text">to be partners you can<br> rely on and trust</span>
                     </div>
-                    <div class="col-lg-4 col-sm-12 promise__item">
-                        <img src="/src/images/static/Group_1199.svg" alt="">
-                        <div class="promise__text">to be one step ahead<br> by thinking big picture</div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="promise__item">
+                        <div class="promise__item-img">
+                            <img src="/src/images/static/Group_1199.svg" alt="">
+                        </div>
+                        <span class="promise__text">to be one step ahead<br> by thinking big picture</span>
                     </div>
-               </div>
-            <div class="row promise__logo">
-                <a class="order-sm-1" href="#"><img class="promise__img" src="/src/images/icons_from_figma/1.png" alt=""></a>
-                <a class="order-sm-2" href="#"><img class="promise__img" src="/src/images/icons_from_figma/2.png" alt=""></a>
-                <a class="order-sm-3" href="#"><img class="promise__img" src="/src/images/icons_from_figma/3.png" alt=""></a>
-                <a class="promise__img-delete" href="#"><img class="promise__img" src="/src/images/icons_from_figma/4.png" alt=""></a>
-                <a class="order-sm-4" href="#"><img class="promise__img" src="/src/images/icons_from_figma/5.png" alt=""></a>
-                <a class="order-sm-5" href="#"><img class="promise__img" src="/src/images/icons_from_figma/6.png" alt=""></a>
-                <a class="order-sm-6" href="#"><img class="promise__img" src="/src/images/icons_from_figma/7.png" alt=""></a>
-                <a class="order-sm-9" href="#"><img class="promise__img" src="/src/images/icons_from_figma/8.png" alt=""></a>
-                <a class="order-sm-7" href="#"><img class="promise__img" src="/src/images/icons_from_figma/9.png" alt=""></a>
-                <a class="order-sm-8" href="#"><img class="promise__img" src="/src/images/icons_from_figma/10.png" alt=""></a>
-                <a class="promise__img-delete" href="#"><img class="promise__img" src="/src/images/icons_from_figma/11.png" alt=""></a>
-                <a class="promise__img-delete" href="#"><img class="promise__img" src="/src/images/icons_from_figma/12.png" alt=""></a>
-                <a class="promise__img-delete" href="#"><img class="promise__img" src="/src/images/icons_from_figma/13.png" alt=""></a>
-                <a class="promise__img-delete" href="#"><img class="promise__img" src="/src/images/icons_from_figma/14.png" alt=""></a>
-                <a class="promise__img-delete" href="#"><img class="promise__img" src="/src/images/icons_from_figma/15.png" alt=""></a>
-            </div>
-            <div class="row justify-content-center">
-                <div class="promise__btn">
-                    <a class="btn promise__btn--center" href="#">See Portfolio</a>
+                </div>
+                <div class="col-12">
+                    <hr class="promise__hr">
+                </div>
+                <div class="col-lg-12">
+                    <div class="promise__logo">
+                        <a class="promise__logo-img" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/1.png" alt="">
+                        </a>
+                        <a class="promise__logo-img" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/2.png" alt="">
+                        </a>
+                        <a class="promise__logo-img" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/3.png" alt="">
+                        </a>
+                        <a class="promise__logo-img d-none d-lg-block" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/4.png" alt="">
+                        </a>
+                        <a class="promise__logo-img" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/5.png" alt="">
+                        </a>
+                        <a class="promise__logo-img" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/6.png" alt="">
+                        </a>
+                        <a class="promise__logo-img" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/7.png" alt="">
+                        </a>
+                        <a class="promise__logo-img" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/8.png" alt="">
+                        </a>
+                        <a class="promise__logo-img" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/9.png" alt="">
+                        </a>
+                        <a class="promise__logo-img" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/10.png" alt="">
+                        </a>
+                        <a class="promise__logo-img d-none d-lg-block" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/11.png" alt="">
+                        </a>
+                        <a class="promise__logo-img d-none d-lg-block" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/12.png" alt="">
+                        </a>
+                        <a class="promise__logo-img d-none d-lg-block" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/13.png" alt="">
+                        </a>
+                        <a class="promise__logo-img d-none d-lg-block" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/14.png" alt="">
+                        </a>
+                        <a class="promise__logo-img d-none d-lg-block" href="#">
+                            <img class="promise__img" src="/src/images/icons_from_figma/15.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="promise__btn">
+                        <a class="btn btn--promise" href="#">See Portfolio</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,42 +205,52 @@
 
     <!-- tech_talk -->
     <section class="tech-talk">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-1 order-2 order-lg-1">
-                    <div class="card ">
-                        <div class="card__item">
-                            <img class="card__logo" src="/src/images/static/Group_1170.svg" alt="">
-                            <h5 class="card__title">Web development</h5>
-                            <p class="card__text">We’ll build your project from a to z, combining a range of frontend and backend technologies to create a perfect solution.</p>
-                        </div>
-                        <div class="card__item">
-                            <img class="card__logo" src="/src/images/static/Group_1174.svg" alt="">
-                            <h5 class="card__title">Shopify</h5>
-                            <p class="card__text">There’s a reason we’ve built hundreds of Shopify stores. Merge their powerful platform with our expertise and you’ll end up with a dynamic, one-of-a-kind store.</p>
-                        </div>
-                        <div class="card__item">
-                            <img class="card__logo" src="/src/images/static/Group_1178.svg" alt="">
-                            <h5 class="card__title">Integrations</h5>
-                            <p class="card__text">Your online store operations should be seamless. That’s why we make sure all of your systems and platforms are fully integrated with each other.</p>
-                        </div>
-                        <div class="card__item">
-                            <img class="card__logo" src="/src/images/static/Group 1530.svg" alt="">
-                            <h5 class="card__title">Consultation</h5>
-                            <p class="card__text">We’ll build your project from a to z, combining a range of frontend and backend technologies to create a perfect solution.</p>
+        <div class="tech-talk__bg">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-1 col-lg-6 col-12 order-2 order-lg-1">
+                        <div class="card">
+                            <div class="card__item">
+                                <div class="card__logo">
+                                    <img src="/src/images/static/Group_1170.svg" alt="">
+                                </div>
+                                <h5 class="card__title">Web development</h5>
+                                <p class="card__text">We’ll build your project from a to z, combining a range of frontend and backend technologies to create a perfect solution.</p>
+                            </div>
+                            <div class="card__item">
+                                <div class="card__logo">
+                                    <img src="/src/images/static/Group_1174.svg" alt="">
+                                </div>
+                                <h5 class="card__title">Shopify</h5>
+                                <p class="card__text">There’s a reason we’ve built hundreds of Shopify stores. Merge their powerful platform with our expertise and you’ll end up with a dynamic, one-of-a-kind store.</p>
+                            </div>
+                            <div class="card__item">
+                                <div class="card__logo">
+                                    <img src="/src/images/static/Group_1178.svg" alt="">
+                                </div>
+                                <h5 class="card__title">Integrations</h5>
+                                <p class="card__text">Your online store operations should be seamless. That’s why we make sure all of your systems and platforms are fully integrated with each other.</p>
+                            </div>
+                            <div class="card__item">
+                                <div class="card__logo">
+                                    <img src="/src/images/static/Group 1530.svg" alt="">
+                                </div>
+                                <h5 class="card__title">Consultation</h5>
+                                <p class="card__text">We’ll build your project from a to z, combining a range of frontend and backend technologies to create a perfect solution.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 offset-lg-1 order-1 order-lg-2">
-                    <div class="tech-talk__content">
-                        <div class="tech-talk__title">
-                            <h4 class="tech__talk__title">Tech Talk</h4>
-                        </div>
-                        <div class="tech-talk__text">
-                            <p>No matter your project’s technical needs, there’s a BOA developer ready to help.</p>
-                        </div> 
-                        <div>
-                            <a class="btn btn--tech-talk" href="#">See All Services</a>
+                    <div class="col-lg-3 offset-lg-1 order-1 order-lg-2 col-12">
+                        <div class="tech-talk__content">
+                            <div class="tech-talk__title">
+                                <h4>Tech Talk</h4>
+                            </div>
+                            <div class="tech-talk__text">
+                                <p>No matter your project’s technical needs, there’s a BOA developer ready to help.</p>
+                            </div>
+                            <div class="tech-talk__btn">
+                                <a class="btn btn--tech-talk" href="#">See All Services</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -185,103 +261,191 @@
     <!-- work -->
     <section class="work">
         <div class="container">
-            <div class="work__big-title row justify-content-center work__margin-title">
-                <h4>Our Work</h4>
-            </div>
             <div class="row justify-content-center">
-                <div class="work__item work__margin">
-                    <img class="work__img" src="/src/images/static/Group_1345.png" alt="">
-                    <h4 class="work__title">SodaStream</h4>
-                    <p class="work__description">Food & beverage, Service</p>
+                <div class="col-lg-12 col-12">
+                    <h4 class="work__big-title ">Our Work</h4>
                 </div>
-                <div class="work__item work__margin">
-                    <img class="work__img" src="/src/images/static/Group_1380.png" alt="">
-                    <h4 class="work__title">Gottex</h4>
-                    <p class="work__description">Fashion, Service</p>
+                <div class="col-lg-10 col-12">
+                    <div class="work__inner">
+                        <div class="work__item">
+                            <div class="work__img">
+                                <img src="/src/images/static/Group_1345.png" alt="">
+                            </div>
+                            <h5 class="work__title">SodaStream</h5>
+                            <span class="work__description">Food & beverage, Service</span>
+                        </div>
+                        <div class="work__item">
+                            <div class="work__img">
+                                <img src="/src/images/static/Group_1380.png" alt="">
+                            </div>
+                            <h5 class="work__title">Gottex</h5>
+                            <span class="work__description">Fashion, Service</span>
+                        </div>
+                        <div class="work__item">
+                            <div class="work__img">
+                                <img src="/src/images/static/Group_1425.png" alt="">
+                            </div>
+                            <h5 class="work__title">Kibbutz Movement</h5>
+                            <span class="work__description">Non e-commerce, Service</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="work__item work__margin">
-                    <img class="work__img" src="/src/images/static/Group_1425.png" alt="">
-                    <h4 class="work__title">Kibbutz Movement</h4>
-                    <p class="work__description">Non e-commerce, Service</p>
+                <div class="col-lg-10 col-12">
+                    <div class="work__inner">
+                        <div class="work__item">
+                            <div class="work__img">
+                                <img src="/src/images/static/Group_1428.png" alt="">
+                            </div>
+                            <h5 class="work__title">GA-DE</h5>
+                            <span class="work__description">Cosmetics & beauty, Service</span>
+                        </div>
+                        <div class="work__item">
+                            <div class="work__img">
+                                <img src="/src/images/static/Group_1407.png" alt="">
+                            </div>
+                            <h5 class="work__title">Shenkar</h5>
+                            <span class="work__description">Cosmetics & beauty, Service</span>
+                        </div>
+                        <div class="work__item">
+                            <div class="work__img">
+                                <img src="/src/images/static/Group_1430.png" alt="">
+                            </div>
+                            <h5 class="work__title">Babysense</h5>
+                            <span class="work__description">Lifestyle, Service</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="work__item work__margin">
-                    <img class="work__img" src="/src/images/static/Group_1428.png" alt="">
-                    <h4 class="work__title">GA-DE</h4>
-                    <p class="work__description">Cosmetics & beauty, Service</p>
+                <div class="col-12">
+                    <div class="work__btn">
+                        <a href="" class="btn btn--work" href="">See portfolio</a>
+                    </div>
                 </div>
-                <div class="work__item work__margin">
-                    <img class="work__img" src="/src/images/static/Group_1407.png" alt="">
-                    <h4 class="work__title">Shenkar</h4>
-                    <p class="work__description">Cosmetics & beauty, Service</p>
-                </div>
-                <div class="work__item work__margin">
-                    <img class="work__img" src="/src/images/static/Group_1345.png" alt="">
-                    <h4 class="work__title">Babysense</h4>
-                    <p class="work__description">Lifestyle, Service</p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <a href="" class="btn btn--work" href="">See portfolio</a>
             </div>
         </div>    
     </section><!-- work -->
 
     <!-- developers -->
     <section class="developers">
-        <div class="container">
-            <div class="developers__background">
-                <div class="row justify-content-center headline-2 developers__title">
-                    <h4 class="">Developers Who <span>Get It</span></h4>
-                </div>
-                <div class="row">
-                    <div class="offset-lg-2 offset-2 col-lg-2">
+        <div class="developers__bg">
+            <div class="container">
+                <div class="row justify-content-lg-start justify-content-center">
+                    <div class="col-lg-12 col-10">
+                        <h4 class="developers__title">Developers Who <span>Get It</span></h4>
+                    </div>
+                    <div class="offset-lg-2 col-lg-10 offset-2 col-10">
                         <ul class="developers__list">
-                            <li class="developers__item"><span>Professional</span></li>
-                            <li class="developers__item developers--active"><span>Experienced</span></li>
-                            <li class="developers__item"><span>Transparent</span></li>
-                            <li class="developers__item"><span>Responsive</span></li>
-                            <li class="developers__item"><span>Invested</span></li>
-                            <li class="developers__item"><span>Uncomplicated</span></li>
+                            <li class="developers__item">
+                                <span class="developers__item-title" id="developersItem1">Professional</span>
+                                <div class="developers__description">
+                                    <h5 class="developers__list-title">Professional</h5>
+                                    <p class="developers__list-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium qui inventore fuga tenetur unde at nisi necessitatibus ea, veritatis enim quidem eligendi quae.</p>
+                                    <p class="developers__list-text">Lorem ipsum dolor sit amet drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
+                                </div>
+                            </li>
+                            <li class="developers__item">
+                                <span class="developers__item-title developers--active" id="developersItem2">Experienced</span>
+                                <div class="developers__description developers__description--active">
+                                    <h5 class="developers__list-title">Experienced</h5>
+                                    <p class="developers__list-text">Drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
+                                    <p class="developers__list-text">Lorem ipsum dolor sit amet drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
+                                </div>
+                            </li>
+                            <li class="developers__item">
+                                <span class="developers__item-title" id="developersItem3">Transparent</span>
+                                <div class="developers__description">
+                                    <h5 class="developers__list-title">Transparent</h5>
+                                    <p class="developers__list-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores beatae repudiandae veniam vero, nobis debitis id nihil quibusdam earum quas?</p>
+                                    <p class="developers__list-text">Lorem ipsum dolor sit amet drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
+                                </div>
+                            </li>
+                            <li class="developers__item">
+                                <span class="developers__item-title" id="developersItem4">Responsive</span>
+                                <div class="developers__description">
+                                    <h5 class="developers__list-title">Responsive</h5>
+                                    <p class="developers__list-text">Drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
+                                    <p class="developers__list-text">Lorem ipsum dolor sit amet drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
+                                </div>
+                            </li>
+                            <li class="developers__item">
+                                <span class="developers__item-title" id="developersItem5">Invested</span>
+                                <div class="developers__description">
+                                    <h5 class="developers__list-title">Invested</h5>
+                                    <p class="developers__list-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores beatae repudiandae veniam vero, nobis debitis id nihil quibusdam earum quas?</p>
+                                    <p class="developers__list-text">Lorem ipsum dolor sit amet drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
+                                </div>
+                            </li>
+                            <li class="developers__item">
+                                <span class="developers__item-title" id="developersItem6">Uncomplicated</span>
+                                <div class="developers__description">
+                                    <h5 class="developers__list-title">Uncomplicated</h5>
+                                    <p class="developers__list-text">Drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
+                                    <p class="developers__list-text">Lorem ipsum dolor sit amet drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
+                                </div>
+                            </li>
                         </ul>
-                    </div>
-                    <div class="offset-lg-1 offset-2 col-8 col-lg-4">
-                        <div class="developers__list-title">Experienced</div>
-                        <p class="developers__list-text">Drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
-                        <p class="developers__list-text">Lorem ipsum dolor sit amet drawing from a decade of experience and knowledge, your project will be the ultimate version of itself</p>
-                    </div>
-                </div>
-                <div class="row developers__background-color">
-                    <div class="developers__img offset-2 offset-lg-2 col-lg-1">
-                        <img class="" src="/src/images/Mask Group.png">
-                    </div>
-                    <div class="developers__quote">
-                        <blockquote class="developers__quote-text">“Frontend development is the focus of our work with GA-DE. Development was mobile-first witha responsive design and code. We consult regularly on general technology development andintegrations. Development was mobile-first witha responsive design and code.”</blockquote>
-                    </div>
-                </div>
-                <div class="row developers__background-color">
-                    <div class="developers__quote-2 offset-lg-4">
-                        <p class="developers__quote-author">Ranee Patel</p>  
-                        <p class="developers__quote-company">Overhead Door Company of The Meadowlands & NYS</p>
-                    </div>
-                    <div class="developers__arrow col">
-                        <img class="developers__arrow-left" src="/src/images/icons/Vector 129.svg" alt="">
-                        <img class="developers__arrow-right" src="/src/images/icons/Vector 130.svg" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section><!-- developers -->
 
+
+    <!-- blockquote -->
+    <section class="blockquote">
+        <div class="container">
+            <div class="row">
+                <div class="offset-lg-2 col-12 col-lg-2">
+                    <div class="blockquote__img">
+                        <img class="" src="/src/images/developers-babysens.svg">
+                    </div>
+                    <div class="blockquote__img">
+                        <img class="" src="/src/images/icons_from_figma/12.png">
+                    </div>
+                    <div class="blockquote__img">
+                        <img class="" src="/src/images/icons_from_figma/7.png">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="blockquote__quote">
+                        <blockquote class="blockquote__quote-text">“Frontend development is the focus of our work with GA-DE. Development was mobile-first witha responsive design and code. We consult regularly on general technology development andintegrations. Development was mobile-first witha responsive design and code.”</blockquote>
+                        <blockquote class="blockquote__quote-text">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium placeat unde suscipit perferendis neque maiores incidunt, architecto rerum cupiditate ut veritatis odio. Veritatis quisquam assumenda maxime temporibus cumque nisi dicta magni deleniti?”</blockquote>
+                        <blockquote class="blockquote__quote-text">“Tonnel ipsum dolor, sit amet consectetur adipisicing elit. Optio soluta atque, eligendi eos quisquam unde? Soluta, vero corporis minus quibusdam repellat fuga enim.”</blockquote>
+                    </div>
+                </div>
+                <div class="offset-lg-4 col-lg-5 col-12">
+                    <div class="blockquote__quote-2">
+                        <span class="blockquote__quote-author">Ranee Patel</span>  
+                        <span class="blockquote__quote-author">Karas Evgen</span>  
+                        <span class="blockquote__quote-author">Full screen</span>  
+                        <span class="blockquote__quote-company">Overhead Door Company of The Meadowlands & NYS</span>
+                        <span class="blockquote__quote-company">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                        <span class="blockquote__quote-company">Tonnel ipsum dolor sit amet consectetur.</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="blockquote__arrows">
+                        <img class="blockquote__arrow-previous" src="/src/images/icons/Vector 129.svg" alt="">
+                        <img class="blockquote__arrow-next" src="/src/images/icons/Vector 130.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <!-- blockquote -->
+                
+
     <!-- get-in-touch -->
     <section class="get-in-touch">
         <div class="container">
-            <div class="row get-in-touch__title">
-                <h4 class="col-lg-6 ">It’s time to finally make your dream website a reality</h4>
-            </div>
-            <div class="row get-in-touch__button">
-                <a href="" class="btn btn--get-in-touch">Get in touch</a>
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-10">
+                    <h4 class="get-in-touch__title">It’s time to finally make your dream website a reality</h4>
+                </div>
+                <div class="col-12">
+                    <div class="get-in-touch__btn">
+                        <a href="" class="btn btn--get-in-touch">Get in touch</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section><!-- get-in-touch -->
@@ -291,152 +455,94 @@
     <section class="subscribe">
         <div class="container">
             <div class="row">
-                <div class="offset-lg-3 col">
-                    <h5 class="subscribe__title">Sign up for emails that you<br> and your <span>website will love</span></h5>
+                <div class="offset-lg-3 col-lg-4 col-12">
+                    <h5 class="subscribe__title">Sign up for emails that you and your <span>website will love</span></h5>
                 </div>
-            </div>
-            <div class="row">
-                <div class="offset-lg-3 col">
-                    <form action="" method="POST">
+                <div class="offset-lg-3 col-lg-9 col-12">
+                    <form class="subscribe__form" action="" method="POST">
                         <input class="subscribe__input" type="email" placeholder="Your email">
-                        <a href="#" class="btn subscribe__btn btn--subscribe">Subscribe</a>
+                        <a href="#" class="btn btn--subscribe subscribe__btn">Subscribe</a>
                     </form>
                 </div>
             </div>
         </div>
     </section><!-- subscribe -->
+
 </main>
 
 
-<footer>
+<footer class="footer"><!-- footer -->
     <div class="container">
-        <!-- footer -->
-        <div class="footer row align-items-start">
-            <div class="offset-lg-1 col-lg-2">
-                <img class="footer__logo-boa" src="/src/images/Mask Group (1).png" alt="">
-                <p class="footer__copyright-notice">© 2020 BOA Ideas. All rights reserved.</p>
+        <div class="row">
+            <div class="offset-lg-1 col-lg-2 col-sm-12 order-1 order-lg-1">
+                <a class="footer__logo-boa" href="index.html">
+                    <img class="footer__logo-img" src="/src/images/footer-logo.svg" alt="">
+                </a>
             </div>
-            <div class="col-lg-2">
-                <ul class="footer__list-1">
-                    <li><a class="footer__item" href="#">Shopify Partner</a></li>
-                    <li><a class="footer__item" href="#">Services</a></li>
-                    <li><a class="footer__item" href="#">Meet us</a></li>
-                    <li><a class="footer__item" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="footer__item" href="why_boa.html">Why BOA?</a></li>
+            <div class="col-lg-2 col-6 order-3 order-lg-2">
+                <ul class="footer__list">
+                    <li>
+                        <a class="footer__item" href="why_boa.html">Why BOA?</a>
+                    </li>
+                    <li>
+                        <a class="footer__item" href="shopify_partner.html">Shopify Partner</a>
+                    </li>
+                    <li>
+                        <a class="footer__item" href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a class="footer__item" href="meet_us.html">Meet us</a>
+                    </li>
+                    <li>
+                        <a class="footer__item" href="portfolio.html">Portfolio</a>
+                    </li>
                 </ul>
             </div>
-            <div class="col-lg-1">
-                <ul class="footer__list-1">
-                    <li><a class="footer__item" href="#">Resources</a></li>
-                    <li><a class="footer__item" href="#">Blog</a></li>
-                    <li><a class="footer__item" href="#">Case studies</a></li>
-                    <li><a class="footer__item" href="#">Tutorials</a></li>
+            <div class="col-lg-2 col-6 order-4 order-lg-3">
+                <ul class="footer__list footer__list--margin">
+                    <li>
+                        <a class="footer__item" href="resources.html">Resources</a>
+                    </li>
+                    <li>
+                        <a class="footer__item" href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a class="footer__item" href="case_studies.html">Case studies</a>
+                    </li>
+                    <li>
+                        <a class="footer__item" href="tutotials.html">Tutorials</a>
+                    </li>
+                    <li class="d-lg-none d-block">
+                        <a class="footer__item" href="#">Contact us</a>
+                    </li>
                 </ul>
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-2 order-5 order-lg-4 d-none d-lg-block">
                 <a href="#" class="btn footer__btn btn--footer">Contact us</a>
             </div>
-            <div class="offset-lg-1 col">
-                <img class="footer__logo-social" src="/src/images/icons/facebook.svg" alt="Facebook">
-                <img class="footer__logo-social" src="/src/images/icons/twitter.svg" alt="Twitter">
-                <img class="footer__logo-social" src="/src/images/icons/linkedin.svg" alt="LinkedIn">
-                <p class="footer__copyright-notice">Made by  <a href="toemail: ester.co">ester.co</a></p>
-            </div>
-        </div><!-- footer -->
-
-        <!-- footer-mobile -->
-        <div class="footer-mobile">
-            <div class="row">
-                <img class="footer-mobile__logo-boa" src="/src/images/Mask Group (1).png" alt="">
-            </div>
-            <div class="row">
-                <div class="col-12 footer-mobile__logo-goup">
-                    <img class="footer-mobile__logo-social" src="/src/images/icons/facebook.svg" alt="Facebook">
-                    <img class="footer-mobile__logo-social" src="/src/images/icons/twitter.svg" alt="Twitter">
-                    <img class="footer-mobile__logo-social" src="/src/images/icons/linkedin.svg" alt="LinkedIn">
+            <div class="col-lg-3 col-sm-12 order-2 order-lg-5">
+                <div class="footer__logo-group">
+                    <a class="footer__logo-social">
+                        <img src="/src/images/icons/facebook.svg" alt="Facebook">
+                    </a>
+                    <a class="footer__logo-social">
+                        <img src="/src/images/icons/twitter.svg" alt="Twitter">
+                    </a>
+                    <a class="footer__logo-social">
+                        <img src="/src/images/icons/linkedin.svg" alt="LinkedIn">
+                    </a>
                 </div>
             </div>
-            <div class="row">
-                <div class="offset-1 col-4">
-                    <ul class="footer-mobile__list-1">
-                        <li><a class="footer-mobile__item" href="why_boa.html">Why BOA?</a></li>
-                        <li><a class="footer-mobile__item" href="#">Shopify Partner</a></li>
-                        <li><a class="footer-mobile__item" href="#">Services</a></li>
-                        <li><a class="footer-mobile__item" href="#">Meet us</a></li>
-                        <li><a class="footer-mobile__item" href="portfolio.html">Portfolio</a></li>
-                    </ul>
-                </div>
-                <div class="offset-2 col-4">
-                    <ul class="footer-mobile__list-1">
-                        <li><a class="footer-mobile__item" href="#">Resources</a></li>
-                        <li><a class="footer-mobile__item" href="#">Blog</a></li>
-                        <li><a class="footer-mobile__item" href="#">Case studies</a></li>
-                        <li><a class="footer-mobile__item" href="#">Tutorials</a></li>
-                        <li><a class="footer-mobile__item" href="#">Contact us</a></li>
-                    </ul>
-                </div>
+            <div class="offset-lg-1 col-lg-5 col-12 order-7 order-lg-6">
+                <span class="footer__copyright-notice">&copy; 2020 BOA Ideas. All rights reserved.</span>
             </div>
-            <div class="row justify-content-center footer-mobile__margin-top">
-                <p class="footer-mobile__copyright-notice">Made by <a href="toemail: ester.co">ester.co</a></p>
+            <div class="offset-lg-3 col-lg-3 col-12 order-6 order-lg-7">
+                <span class="footer__copyright-made">Made by <a href="mailto: ester.co">ester.co</a></span>
             </div>
-            <div class="row justify-content-center">
-                <p class="footer-mobile__copyright-notice">© 2020 BOA Ideas. All rights reserved.</p>
-            </div>
-        </div><!-- footer-mobile -->
-    </div>
-</footer>
-
-
-<div class="modal" id="burger-modal">
-    <div class="container">
-        <div class="modal__content">
-            <button class="modal__close" type="button" id="">
-                <span></span>
-            </button>    
-            <ul class="modal__menu">                     
-                <li class="modal__item">
-                    <a class="modal__link" href="why_boa.html">Why BOA?</a>
-                </li>
-                <li class="modal__item">
-                    <a class="modal__link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="modal__item">
-                    <a class="modal__link" href="#">Shopify Partner</a>
-                </li>
-                <li class="modal__item">
-                    <a class="modal__link" href="#">Services</a>
-                </li>
-                <li class="modal__item">
-                    <a class="modal__link" href="#">Meet us</a>
-                </li>
-                <li class="modal__item">
-                    <a class="modal__link modal__has-subnav " href="#">Resources</a>
-                    <ul class="modal-subnav__menu">
-                        <li class="modal-subnav__item">
-                            <a href="" class="modal-subnav__link">Blog Posts</a>
-                        </li>
-                        <li class="modal-subnav__item">
-                            <a href="" class="modal-subnav__link">Case studies</a>
-                        </li>
-                        <li class="modal-subnav__item">
-                            <a href="" class="modal-subnav__link">Tutorials</a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="modal__item">
-                    <a class="modal__link btn btn--nav" href="#">Contact us</a>
-                </li>
-                <div class="modal__logo">
-                    <img class="modal__logo-social" src="/src/images/icons/facebook.svg" alt="Facebook">
-                    <img class="modal__logo-social" src="/src/images/icons/twitter.svg" alt="Twitter">
-                    <img class="modal__logo-social" src="/src/images/icons/linkedin.svg" alt="LinkedIn">
-                </div>
-            </ul>
         </div>
     </div>
-</div><!-- modal -->
+</footer><!-- footer -->
 
-    <script src="/src/js/index.js"></script> <!-- type="module" -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> -->
+    <script src="/src/js/index.js" type="module"></script> 
 </body>
 </html>
